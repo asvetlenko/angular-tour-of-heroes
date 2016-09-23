@@ -4,8 +4,9 @@ import {Router} from '@angular/router';
 import {Hero} from './hero'
 
 @Component({
+    moduleId: module.id,
     selector: 'tooltip-hero',
-    templateUrl: 'app/tooltip-hero-component.html'
+    templateUrl: 'tooltip-hero-component.html'
 })
 export class TooltipHeroComponent {
     @Input()

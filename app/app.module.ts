@@ -8,7 +8,7 @@ import {HttpModule} from '@angular/http';
 import {InMemoryWebApiModule} from 'angular2-in-memory-web-api';
 import {InMemoryDataService} from './in-memory-data.service';
 
-import {AppComponent} from './app.component'
+import {AppComponent} from './components/app/app.component'
 import {DashboardComponent} from './dashboard.component';
 import {HeroesComponent} from './heroes.component';
 import {HeroDetailComponent} from './hero-detail.component';
