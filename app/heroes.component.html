@@ -17,11 +17,4 @@
     </li>
 </ul>
 
-<div *ngIf="selectedHero">
-    <h2>
-        {{selectedHero.firstName | uppercase}}
-        {{selectedHero.lastName | uppercase}}
-        is my hero
-    </h2>
-    <button (click)="gotoDetail()">View Details</button>
-</div>
+<tooltip-hero [hero]="selectedHero"></tooltip-hero>
