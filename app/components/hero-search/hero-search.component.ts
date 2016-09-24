@@ -3,7 +3,7 @@ import {Router} from '@angular/router';
 import {Observable} from 'rxjs/observable'
 import {Subject} from 'rxjs/Subject'
 
-import {HeroSearchService} from '../../hero-search.service'
+import {HeroSearchService} from '../../web-services/hero-search.service'
 import {Hero} from '../../common/model/hero'
 
 @Component({

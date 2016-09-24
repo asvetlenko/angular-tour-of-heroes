@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute, Params} from '@angular/router';
 
 import {Hero} from '../../common/model/hero'
-import {HeroService} from '../../hero.service'
+import {HeroService} from '../../web-services/hero.service'
 
 @Component({
     moduleId: module.id,

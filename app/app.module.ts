@@ -1,4 +1,4 @@
-import './rxjs-extensions';
+import './common/rxjs-extensions';
 
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
@@ -15,7 +15,7 @@ import {HeroDetailComponent} from './components/hero-detail/hero-detail.componen
 import {HeroSearchComponent} from './components/hero-search/hero-search.component';
 import {TooltipHeroComponent} from './components/tooltip-hero/tooltip-hero-component';
 
-import {HeroService} from './hero.service';
+import {HeroService} from './web-services/hero.service';
 
 import {routing} from './app.routing'
 
