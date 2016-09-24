@@ -6,7 +6,7 @@ import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 
 import {InMemoryWebApiModule} from 'angular2-in-memory-web-api';
-import {InMemoryDataService} from './in-memory-data.service';
+import {InMemoryDataService} from './_fake-server/in-memory-data.service';
 
 import {AppComponent} from './components/app/app.component'
 import {DashboardComponent} from './components/dashboard/dashboard.component';
@@ -17,7 +17,7 @@ import {TooltipHeroComponent} from './components/tooltip-hero/tooltip-hero-compo
 
 import {HeroService} from './web-services/hero.service';
 
-import {routing} from './app.routing'
+import {routing} from './routings/app.routing'
 
 @NgModule({
     imports: [
