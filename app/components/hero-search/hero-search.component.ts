@@ -4,7 +4,7 @@ import {Observable} from 'rxjs/observable'
 import {Subject} from 'rxjs/Subject'
 
 import {HeroSearchService} from '../../hero-search.service'
-import {Hero} from '../../hero'
+import {Hero} from '../../common/model/hero'
 
 @Component({
     moduleId: module.id,

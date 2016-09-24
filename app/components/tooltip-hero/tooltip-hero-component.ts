@@ -1,7 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
 
-import {Hero} from '../../hero'
+import {Hero} from '../../common/model/hero'
 
 @Component({
     moduleId: module.id,
