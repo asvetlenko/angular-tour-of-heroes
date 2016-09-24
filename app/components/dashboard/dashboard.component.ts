@@ -3,7 +3,7 @@ import {Component} from '@angular/core';
 import {OnInit} from '@angular/core'
 import {Router} from '@angular/router';
 
-import {Hero} from '../../common/model/hero';
+import {Hero} from '../../common/models/hero';
 import {HeroService} from '../../web-services/hero.service';
 
 @Component({

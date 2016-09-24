@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {Http, Response} from '@angular/http';
 import {Observable} from 'rxjs';
 
-import {Hero} from '../common/model/hero';
+import {Hero} from '../common/models/hero';
 
 @Injectable()
 export class HeroSearchService {
