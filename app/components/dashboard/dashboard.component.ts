@@ -3,8 +3,8 @@ import {Component} from '@angular/core';
 import {OnInit} from '@angular/core'
 import {Router} from '@angular/router';
 
-import {Hero} from './hero';
-import {HeroService} from './hero.service';
+import {Hero} from '../../hero';
+import {HeroService} from '../../hero.service';
 
 @Component({
     moduleId: module.id,
