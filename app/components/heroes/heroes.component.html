@@ -1,10 +1,16 @@
-<div>
-    <label>Hero first name:</label> <input #heroFirstName />
-    <label>Hero last name:</label> <input #heroLastName />
+<fieldset>
+    <legend [my-highlight]="color"  [defaultColor]="'violet'">Pick a highlight color</legend>
+    <input type="radio" name="colors" (click)="color='lightgreen'"> Green
+    <input type="radio" name="colors" (click)="color='yellow'"> Yellow
+    <input type="radio" name="colors" (click)="color='blue'"> blue
+    <br/>
+
+    <label [style.background]="'lime'">Hero first name:</label> <input #heroFirstName />
+    <label my-highlight="cyan">Hero last name:</label> <input #heroLastName />
     <button (click)="add(heroFirstName.value, heroLastName.value); heroFirstName.value=''; heroLastName.value=''">
         Add
     </button>
-</div>
+</fieldset>
 
 <ul class="heroes">
     <li *ngFor="let hero of heroes"
