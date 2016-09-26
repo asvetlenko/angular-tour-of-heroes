@@ -15,7 +15,6 @@ import {HeroDetailComponent} from './components/hero-detail/hero-detail.componen
 import {HeroSearchComponent} from './components/hero-search/hero-search.component';
 import {TooltipHeroComponent} from './components/tooltip-hero/tooltip-hero-component';
 /* ----------------------------------- */
-import {AutoGrowDirective} from './directives/auto-grow/auto-grow.directive';
 import {MyHighlightDirective} from './directives/highlight/my-highlight.directive';
 
 import {HeroService} from './web-services/hero.service';
@@ -37,7 +36,6 @@ import {routing} from './routings/app.routing'
         HeroesComponent,
         HeroSearchComponent,
         TooltipHeroComponent,
-        AutoGrowDirective,
         MyHighlightDirective
     ],
     providers: [
