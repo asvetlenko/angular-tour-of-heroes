@@ -3,5 +3,5 @@ npm-debug.log
 .idea/
 typings/
 
-app/*.js.map
-app/*.js
+*.js.map
+*.js
