@@ -14,7 +14,9 @@ import {HeroesComponent} from './components/heroes/heroes.component';
 import {HeroDetailComponent} from './components/hero-detail/hero-detail.component';
 import {HeroSearchComponent} from './components/hero-search/hero-search.component';
 import {TooltipHeroComponent} from './components/tooltip-hero/tooltip-hero-component';
-/* ----------------------------------- */
+import {TestDirectiveComponent} from './components/test-directive/test-directive.component';
+
+
 import {MyHighlightDirective} from './directives/highlight/my-highlight.directive';
 
 import {HeroService} from './web-services/hero.service';
@@ -36,6 +38,7 @@ import {routing} from './routings/app.routing'
         HeroesComponent,
         HeroSearchComponent,
         TooltipHeroComponent,
+        TestDirectiveComponent,
         MyHighlightDirective
     ],
     providers: [

@@ -1,0 +1,9 @@
+<h1 [my-highlight]="'cyan'">Static selection for my-highlight</h1>
+<h2 [style.background]="'lime'"> Standart directive for style</h2>
+<fieldset>
+    <legend [my-highlight]="color"  [defaultColor]="'violet'">Pick a highlight color</legend>
+    <input type="radio" name="colors" (click)="color='lightgreen'"> Green
+    <input type="radio" name="colors" (click)="color='yellow'"> Yellow
+    <input type="radio" name="colors" (click)="color='blue'"> blue
+    <br/>
+</fieldset>

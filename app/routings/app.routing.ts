@@ -4,6 +4,7 @@ import {Routes, RouterModule} from '@angular/router';
 import {HeroesComponent} from '../components/heroes/heroes.component';
 import {DashboardComponent} from '../components/dashboard/dashboard.component';
 import {HeroDetailComponent} from '../components/hero-detail/hero-detail.component';
+import {TestDirectiveComponent} from '../components/test-directive/test-directive.component';
 
 const appRoutes: Routes = [
     {
@@ -22,6 +23,10 @@ const appRoutes: Routes = [
     {
         path: 'detail/:id',
         component: HeroDetailComponent
+    },
+    {
+        path: 'test-directive',
+        component: TestDirectiveComponent
     }
 ];
 
